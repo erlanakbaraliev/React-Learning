@@ -1,0 +1,71 @@
+#root {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 600, 700;
+    font-style: normal;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #1b4066; /* Light background for a clean look */
+    color: white; /* Dark text for readability */
+}
+
+/* Header */
+.brand {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #10253c; /* Bootstrap primary blue */
+    box-shadow: 0 10px 20px #205084;
+}
+
+.brand-logo img {
+    height: 50px; /* Slightly larger logo */
+}
+
+.brand-name {
+    color: #61dafb;
+    margin-left: 10px;
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+    width: 100%;
+}
+
+.title {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #61dafb;
+    font-weight: bolder;
+  
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.7em;
+}
+
+.factsList {
+    margin-top: 10px
+}
+.facts li {
+    padding: 10px
+}
+
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+}
