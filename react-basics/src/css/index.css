@@ -10,6 +10,10 @@ body {
     font-family: 'Poppins', Arial, sans-serif;
     background-color: #1b4066; /* Light background for a clean look */
     color: white; /* Dark text for readability */
+    background-image: url(src/images/react-logo-half.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 
 /* Header */
@@ -41,14 +45,8 @@ main {
     font-weight: bold;
 }
 
-ul li::before {
-    content: "\2022";
+.factsList li::marker {
     color: #61dafb;
-    font-weight: bolder;
-  
-    display: inline-block;
-    width: 1em;
-    margin-left: -1.7em;
 }
 
 .factsList {
